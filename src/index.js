@@ -31,11 +31,18 @@ applyRule = (rule, obj) => {
   }
 }
 
-flowEngine = (rules, obj) => {
+startFlowEngine = (rules, obj) => {
   applyRule(rules[0], obj)
 }
 
-flowEngine(rules.rules, {
+startFlowEngine(rules.rules, {
   firstname: 'Cassio',
   lastname: 'Cardoso'
 })
+
+module.exports = {
+    getRuleById: getRuleById,
+    log: log,
+    applyRule: applyRule,
+    startFlowEngine: startFlowEngine
+};
