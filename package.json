@@ -1,0 +1,13 @@
+{
+  "name": "hubrick",
+  "version": "1.0.0",
+  "description": "Hubrick's code challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Cassio Cardoso <caugusto.cardoso@gmail.com>",
+  "license": "MIT",
+}
