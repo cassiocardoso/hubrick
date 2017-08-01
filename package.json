@@ -10,4 +10,7 @@
   "keywords": [],
   "author": "Cassio Cardoso <caugusto.cardoso@gmail.com>",
   "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.0.1"
+  }
 }

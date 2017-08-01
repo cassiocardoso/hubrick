@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "function": "function castToBool(obj) { return !!obj }",
+      "true_id": 2,
+      "false_id": 4
+    },
+    {
+      "id": 2,
+      "function": "function checkLength(obj) { return obj.firstname.length }",
+      "true_id": 3,
+      "false_id": 1
+    },
+    {
+      "id": 3,
+      "function": "function getType(obj) { return obj.age }",
+      "true_id": 4,
+      "false_id": 4
+    },
+    {
+      "id": 4,
+      "function": "function listKeys(obj) { return Object.keys(obj) }",
+      "true_id": null,
+      "false_id": null
+    }
+  ]
+}
