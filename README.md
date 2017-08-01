@@ -12,3 +12,7 @@
 - Install dependencies `npm install`
 - Run `npm start` | `node ./src/index.js`
 - Test with `npm test`
+
+# Notes
+
+- Time spent: 3h42min (via Wakatime)
